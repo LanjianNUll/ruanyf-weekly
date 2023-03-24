@@ -34,3 +34,17 @@
 #### 参考
 1. https://www.ruanyifeng.com/blog/
 
+
+#### 部署
+
+登录Vercel 官网， build 命令,覆盖默认的
+
+```sh
+sh scripts/main.sh && vitepress build docs
+
+```
+
+
+
+
+
