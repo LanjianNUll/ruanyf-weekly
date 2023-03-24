@@ -1,20 +1,20 @@
 ---
 layout: home
 
-title: 阮一峰的技术周刊
+title: Go语言爱好者周刊
 titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
-  name: 阮一峰的技术周刊
-  text: 科技, 分享, 开源
-  tagline: 出于个人兴趣搭建，非官方！！！官网链接在https://www.ruanyifeng.com/blog/
+  name: Go语言爱好者周刊
+  text: 学习, 分享, 开源
+  tagline: 出于个人学习兴趣搭建，非官方！！！官网链接在https://github.com/polaris1119/golangweekly/。 项目大部分参考 https://github.com/plantree/ruanyf-weekly 学习
   actions:
     - theme: brand
-      text: Get Started
+      text: Start
       link: /weekly/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/plantree/ruanyf-weekly
+      link: https://github.com/LanjianNull/golang-weekly
 
 features:
   - title: 及时更新

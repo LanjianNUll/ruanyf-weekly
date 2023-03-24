@@ -1,7 +1,7 @@
 {
-  "name": "ruanyf-weekly",
+  "name": "golang-weekly",
   "version": "1.0.0",
-  "description": "VitePress构建阮一峰的技术周刊",
+  "description": "Go语言爱好者周刊",
   "type": "module",
   "main": "index.js",
   "directories": {
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plantree/ruanyf-weekly.git"
+    "url": "git+https://github.com/LanjianNUll/golang-weekly.git"
   },
-  "author": "plantree",
+  "author": "LanjianNUll",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/plantree/ruanyf-weekly/issues"
+    "url": "https://github.com/LanjianNUll/golang-weekly/issues"
   },
-  "homepage": "https://github.com/plantree/ruanyf-weekly#readme",
+  "homepage": "https://github.com/LanjianNUll/golang-weekly#readme",
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.49",
     "vue": "^3.2.47"

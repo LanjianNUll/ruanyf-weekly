@@ -16,13 +16,23 @@ function fsm(content) {
             meta[year] = {};
             yearStatus = year;
         } else if (line.includes('月')) {
-            const month = line.replaceAll('*', '').trim();
+            const month = line.split('**')[1];
             meta[yearStatus][month] = [];
             monthStatus = month;
-        } else if (line.startsWith('- 第')) {
-            const issue = pattern.exec(line)[0];
-            meta[yearStatus][monthStatus].push(issue);
+            let tempArr = line.split('|')
+            tempArr.forEach(str => {
+                if (str.includes('- 第')) {
+                    const issue = pattern.exec(line)[0];
+                    meta[yearStatus][monthStatus].push(issue);
+                }
+            });
+        } else {
+
         }
+        // } else if (line.startsWith('- 第')) {
+        //     const issue = pattern.exec(line)[0];
+        //     meta[yearStatus][monthStatus].push(issue);
+        // }
         i++;
     }
     return meta;
